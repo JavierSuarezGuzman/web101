@@ -1,0 +1,83 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title> Login </title>
+<!-- REFERENCIA A LA HOJA DE ESTILOS-->
+<link href="estilos/estilos.css" rel="stylesheet" type="text/css">
+<!-- REFERENCIA AL ARCHIVO JAVASCRIPT-->
+<script type="text/javascript" src="funciones.js"></script>
+
+
+
+
+</head>
+
+<body bgcolor="#87CEFA" text="#3399ff">
+<p style="text-align:right">
+  <a href="login.html">Home</a></p>
+
+<form name="frmLogin" action="">
+<table border="0" cellspacing="0">
+  <!--fila 1 de la tabla-->
+  <h1>IDENTIFÍCATE</h1>
+  <tr>
+    <!--aca es mi celda de etiqueta Nombre-->
+    <td>Username:</td>
+    <!--aca es mi celda con el campo input text-->
+    <td><input type="text" name="user"></td>
+  </tr>
+  
+  <!--fila 2 de la tabla-->
+  <tr>
+    <!--aca es mi celda de etiqueta Nombre-->
+    <td>Password:</td>
+    <!--aca es mi celda con el campo input text-->
+    <td><input type="text" name="pass"></td>
+  </tr>
+  
+  <!--fila 3 de ROL -->
+	<tr>
+	<td>Rol</td>
+      	<td><select name="Rol" id="txtUsername">
+		<option value="0">&nbsp;</option>
+		<option>Profesor</option>
+  		<option>Alumno</option>
+		<option>Administracion</option>
+  <!--fila solo de espacios-->
+  <tr><td height="50" colspan="2">&nbsp;</td></tr>
+
+  
+  <!--fila 4 de la tabla-->
+  <tr>
+    <!--aca van los botones-->
+    <td colspan="2" align="center"><input type="button" value="Aceptar" onclick="login();"></td>
+  </tr>  
+
+</table> 
+  
+</form>  
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

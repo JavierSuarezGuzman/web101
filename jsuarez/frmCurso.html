@@ -1,0 +1,87 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title> Ingreso notas alumno </title>
+<!-- REFERENCIA A LA HOJA DE ESTILOS-->
+<link href="estilos/estilos.css" rel="stylesheet" type="text/css">
+<!-- REFERENCIA AL ARCHIVO JAVASCRIPT-->
+<script type="text/javascript" src="funciones.js"></script>
+
+</head>
+
+<body bgcolor="#87CEFA" text="#3399ff">
+<p style="text-align:right">
+  <a href="frmCurso.html">Home</a></p>
+<form name="frmCurso">
+<table border="3" cellspacing="0">
+  <h1>Cursos</h1>
+  <tr>
+      <td>Curso</td>
+      <td>&nbsp;</td>
+      <td><input type="text" name="curso"></td>
+    </tr>
+    <tr>
+      <td>Escuela</td>
+      <td>&nbsp;</td>
+      <td><select name="escuela">
+		<option value="0">Seleccione escuela</option>
+		<option value="1">Informática</option>
+		<option value="2">Construcción</option>
+		<option value="3">Electricidad</option>
+</td>
+    </tr>
+    <tr>
+      <td>Modalidad</td>
+      <td>&nbsp;</td>
+      <td><select name="modalidad">
+		<option value="0">Seleccione modalidad</option>
+		<option value="1">Online</option>
+		<option value="2">Presencial</option>
+		<option value="3">Semipresencial</option>
+</td>
+    </tr>
+    <tr>
+      <td>Status</td>
+      <td>&nbsp;</td>
+      <td><select name="status">
+		<option value="0">Seleccione Status</option>
+		<option value="1">En Progreso</option>
+		<option value="2">No iniciado</option>
+		<option value="3">Cancelado</option>
+</td>
+    </tr>
+<tr><td colspan="3">&nbsp;</td></tr>
+    <tr>
+      <td colspan="3" align="center">
+        <input type="button" value="Aceptar" onclick="aceptarCurso();"> 
+        <input type="button" value="Limpiar" onclick="clearCurso();">
+      </td>
+    </tr>
+
+</table>
+</form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

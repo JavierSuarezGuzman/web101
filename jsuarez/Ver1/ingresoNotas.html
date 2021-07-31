@@ -1,0 +1,92 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title> Ingreso notas alumno </title>
+<!-- REFERENCIA A LA HOJA DE ESTILOS-->
+<link href="estilos/estilos.css" rel="stylesheet" type="text/css">
+<!-- REFERENCIA AL ARCHIVO JAVASCRIPT-->
+<script type="text/javascript" src="funciones.js"></script>
+
+</head>
+
+
+<body bgcolor="#87CEFA" text="#3399ff">
+<p style="text-align:right">
+  <a href="ingresoNotas.html">Home</a></p>
+<form name="ingresoNotas">
+<table border="3" cellspacing="0" width="40%">
+  <h1>Ingreso notas de alumno</h1>
+  <tr>
+      <td>Alumno</td>
+      <td>&nbsp;</td>
+      <td><select name="nombre">
+		<option value="0">Seleccione alumno</option>
+		<option value="1">Francisco Suárez Suárez</option>
+		<option value="2">José Reyes Muñoz</option>
+		<option value="3">Margarita Fernandez Silva</option>
+		<option value="4">Daniela Cáceres Pérez</option>
+		<option value="5">Tomás Jackson Valenzuela</option>
+		<option value="6">Jerry Smith</option>
+</td>
+<!--      <td>Nota 3</td>-->
+
+    </tr>
+    <tr>
+      <td>Nota 1</td>
+      <td>&nbsp;</td>
+      <td><input type="text" name="nota1"></td>
+<!--      <td>Nota 3</td>-->
+    </tr>
+    <tr>
+      <td>Nota 2</td>
+      <td>&nbsp;</td>
+      <td><input type="text" name="nota2"></td>
+<!--      <td>Nota 3</td>-->
+    </tr>
+    <tr>
+      <td>Nota 3</td>
+      <td>&nbsp;</td>
+      <td><input type="text" name="nota3" onchange="promedio();"></td>
+<!--      <td>Nota 3</td>-->
+    </tr>
+    <tr>
+      <td>Promedio</td>
+      <td>&nbsp;</td>
+      <td id="mensajePromedio"></td>
+<!--      <td>Nota 3</td>-->
+    </tr>
+<tr><td colspan="3">&nbsp;</td></tr>
+    <tr>
+      <td colspan="3" align="center">
+        <input type="button" value="Aceptar" onclick="aceptarNotas();"> 
+        <input type="button" value="Limpiar" onclick="clearNotas();">
+      </td>
+    </tr>
+
+</table>
+</form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
